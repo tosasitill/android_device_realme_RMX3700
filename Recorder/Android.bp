@@ -1,0 +1,9 @@
+android_app_import {
+	name: "Recorder",
+	owner: "Inshot",
+	apk: "Recorder.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}

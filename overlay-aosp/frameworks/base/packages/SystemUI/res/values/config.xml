@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+     <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
+     <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
+       <item>@*android:string/status_bar_call_strength</item>
+     </string-array>
+
+     <!-- Icons that don't show in a collapsed statusbar on keyguard -->
+     <string-array name="config_keyguard_statusbar_icon_blocklist" translatable="false">
+       <item>@*android:string/status_bar_call_strength</item>
+     </string-array>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
+</resources>
